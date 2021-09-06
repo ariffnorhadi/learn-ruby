@@ -31,4 +31,6 @@ def count_multibyte_char(str)
   count
 end
 
+puts count_multibyte_char('ariffnorhadi')
+
 
