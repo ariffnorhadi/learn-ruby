@@ -1,4 +1,4 @@
-# Ruby Hackerrank
+# Learn Ruby
 
 https://www.hackerrank.com/
 
