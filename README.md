@@ -1,3 +1,4 @@
 # Ruby Hackerrank
 
-well, yeah, all the best :)))
+https://www.hackerrank.com/
+
