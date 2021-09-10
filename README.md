@@ -13,3 +13,8 @@ My advice is perhaps you can try to start learning Ruby from these resources (fr
 
 Update: Maybe you can use both Hackerrank and Codewars at the same time (as long as they help you improve your proficiency of the language)
 
+# RSpec
+RSpec is a testing tool for Ruby, created for behaviour-driven development (BDD)
+
+References
+- https://semaphoreci.com/community/tutorials/getting-started-with-rspec
