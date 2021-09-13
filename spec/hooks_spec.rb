@@ -38,3 +38,33 @@ describe SimpleClass do
   end
 end
 
+# after hook, both before and after hooks can take :all as an argument
+# the after hook will run after specified target
+# :all target means that the hook will run before/after all of the Examples
+
+describe 'before and after hooks' do
+  before(:each) do
+    puts 'run BEFORE each example'
+  end
+
+  after(:each) do
+    puts 'run AFTER each example'
+  end
+
+  before(:all) do
+    puts 'run BEFORE ALL examples '
+  end
+
+  after(:all) do
+    puts 'run AFTER ALL examples'
+  end
+
+  it 'is the first Example in this spec file' do
+    puts 'Running the first Example'
+  end
+
+  it 'is the second Example in this spec file' do
+    puts 'Running the second example'
+  end
+end
+
