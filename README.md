@@ -4,6 +4,8 @@ Ruby is a programming language :)
 
 ## Version
 
+- use rbenv to manage ruby version\
+- currently i'm using\
 `ruby 2.5.8p224 (2020-03-31 revision 67882) [x86_64-linux]`
 
 ## Tutorials
