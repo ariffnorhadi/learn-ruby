@@ -1,5 +1,13 @@
 # Learn Ruby
 
+Ruby is a programming language :)
+
+## Version
+
+`ruby 2.5.8p224 (2020-03-31 revision 67882) [x86_64-linux]`
+
+## Tutorials
+
 https://www.hackerrank.com/
 
 Ruby Tutorials/Videos/References
@@ -13,7 +21,7 @@ My advice is perhaps you can try to start learning Ruby from these resources (fr
 
 Update: Maybe you can use both Hackerrank and Codewars at the same time (as long as they help you improve your proficiency of the language)
 
-# RSpec
+## RSpec
 RSpec is a testing tool for Ruby, created for behaviour-driven development (BDD)
 
 References
