@@ -17,4 +17,5 @@ Update: Maybe you can use both Hackerrank and Codewars at the same time (as long
 RSpec is a testing tool for Ruby, created for behaviour-driven development (BDD)
 
 References
-- https://semaphoreci.com/community/tutorials/getting-started-with-rspec
+- [Getting Started with RSpec](https://semaphoreci.com/community/tutorials/getting-started-with-rspec)
+- [Learn RSpec from tutorialspoint](https://www.tutorialspoint.com/rspec/index.htm)
