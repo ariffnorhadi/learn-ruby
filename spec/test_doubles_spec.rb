@@ -38,6 +38,10 @@ describe ClassRoom do
     student1 = double('student')
     student2 = double('student')
 
+    # https://www.tutorialspoint.com/rspec/rspec_stubs.htm
+    # allow() method provides the method stubs that we need to test the ClassRoom class
+    # we need an object that will act just like an instance of the Student class
+    # we know Student class have name() method and we use allow() to create a method stub for name()
     allow(student1).to receive(:name) {'Ariff Norhadi'}
     allow(student2).to receive(:name) {'Another Person'}
 
