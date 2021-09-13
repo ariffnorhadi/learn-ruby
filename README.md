@@ -15,7 +15,7 @@ I started to learn Ruby from Mike, then try solve challenge on codewars (after i
 
 My advice is perhaps you can try to start learning Ruby from these resources (freecodecamp or others), then improve on hackerrank and finally solve kata on codewars
 - [Hackerrank](https://www.hackerrank.com/)
-- [Codewars](https://www.codewars.com/) - Rank up from 8kyu to 1kyu, all the best! (just make sure you don't cheat and know what you're doing)
+- [Codewars](https://www.codewars.com/) - Rank up from 8kyu to 1kyu, all the best! (make sure you know what you're doing)
 
 Update: Maybe you can use both Hackerrank and Codewars at the same time (as long as they help you improve your proficiency of the language)
 
