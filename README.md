@@ -1,4 +1,4 @@
-# Learn Ruby
+# Ruby
 
 Ruby is a programming language :)
 
