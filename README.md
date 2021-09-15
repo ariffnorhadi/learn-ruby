@@ -27,3 +27,4 @@ RSpec is a testing tool for Ruby, created for behaviour-driven development (BDD)
 References
 - [Getting Started with RSpec](https://semaphoreci.com/community/tutorials/getting-started-with-rspec)
 - [Learn RSpec from tutorialspoint](https://www.tutorialspoint.com/rspec/index.htm)
+- [Examples of Good and Bad Specs](https://www.betterspecs.org/)
