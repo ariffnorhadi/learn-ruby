@@ -10,13 +10,18 @@ class Person
     @first_name = first_name
     @last_name = last_name
   end
+
+  def call
+    @last_name
+  end
 end
 
 describe Person do
+  subject { Person.new('ariff', 'norhadi') }
+
   it 'create a new person with a first and a last name' do
-    person = Person.new('Ariff', 'Norhadi')
-    expect(person).to have_attributes(first_name: 'Ariff')
-    expect(person).to have_attributes(last_name: 'Norhadi')
+    expect(subject).to have_attributes(first_name: 'ariff')
+    expect(subject).to have_attributes(last_name: 'norhadi')
   end
 end
 # but we can use RSpec's subject feature to reduce the amount of code in the example.
