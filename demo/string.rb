@@ -4,3 +4,6 @@ puts string
 
 # References
 # https://stackoverflow.com/questions/27664050/ruby-freeze-method
+
+@failed = "testing"
+puts @failed
