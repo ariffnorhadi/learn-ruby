@@ -7,3 +7,11 @@ puts string
 
 @failed = "testing"
 puts @failed
+
+messages = ""
+
+1..5.times do |index|
+  messages+= "#{index}, exception_message \n"
+end
+
+puts messages

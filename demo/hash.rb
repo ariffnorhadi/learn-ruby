@@ -1,10 +1,12 @@
+extra = {show: true , message: "message"}
+
 base_opts = {
   campaign: "nama_kempen",
-  tarikh: "tarikh sekian sekian"
+  tarikh: "tarikh sekian sekian",
+  extra: extra
 }
 
-puts base_opts[:campaign]
-puts base_opts[:tarikh]
+puts base_opts
 
 class AnyService
   def self.blast(base_opts:)
