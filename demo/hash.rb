@@ -6,12 +6,13 @@ base_opts = {
   extra: extra
 }
 
-puts base_opts
-
 class AnyService
-  def self.blast(base_opts:)
+  def self.blast(base_opts:, log:)
     puts base_opts[:campaign] # print nama kempen
+    puts log
   end
 end
 
-AnyService.blast(base_opts: base_opts)
+log = "hello log"
+x = AnyService.blast(base_opts: base_opts, log: log)
+

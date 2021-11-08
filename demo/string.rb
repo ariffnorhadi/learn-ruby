@@ -8,10 +8,14 @@ puts string
 @failed = "testing"
 puts @failed
 
-messages = ""
+messages = "first string, "
+message_2 = "second message"
 
-1..5.times do |index|
-  messages+= "#{index}, exception_message \n"
+def add_messages
+  messages_2 += "hello"
 end
 
-puts messages
+add_messages
+
+puts message_2
+
