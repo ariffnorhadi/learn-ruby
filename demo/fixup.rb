@@ -1,3 +1,3 @@
 def calculate
-    puts "nothing"
+    puts "should calculate something here"
 end
