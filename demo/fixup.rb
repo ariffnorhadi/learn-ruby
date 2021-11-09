@@ -1,7 +1,3 @@
-def calculate
-    puts "should calculate something here"
-end
-
-def calculate_nothing
-    puts "nothing"
+def feature_A_status
+    complete = true
 end
