@@ -11,4 +11,8 @@ end
 finish = Time.now
 duration = finish - start
 puts duration
-puts count
+puts "count: #{count}" # 5
+
+frequency = 9
+
+puts "ok" if count == 5 || frequency == 6
