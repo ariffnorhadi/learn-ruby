@@ -22,3 +22,5 @@ puts error_messages
 # 6.times do |index|
 #   puts index
 # end
+
+count = 1/0

@@ -11,11 +11,7 @@ puts @failed
 messages = "first string, "
 message_2 = "second message"
 
-def add_messages
-  messages_2 += "hello"
-end
+msg = message_2 + messages
 
-add_messages
-
-puts message_2
+puts msg
 

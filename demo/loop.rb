@@ -17,9 +17,14 @@ frequency = 9
 
 puts "ok" if count == 5 || frequency == 6
 
-max = 500
+max = 10
 count = 0
+valid = 5 # assume 5 is valid
 while count <= max
   count += 1
-  puts count if count % 170 == 0
+  puts count
+  unless count != valid
+    next
+  end
+  puts "next process"
 end

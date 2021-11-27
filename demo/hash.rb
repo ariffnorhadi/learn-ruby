@@ -9,10 +9,12 @@ base_opts = {
 class AnyService
   def self.blast(base_opts:, log:)
     puts base_opts[:campaign] # print nama kempen
-    puts log
+    base_opts_2 = base_opts
+    logs = log
+    AnyService.blast(base_opts: base_opts_2, log: logs)
   end
 end
 
 log = "hello log"
-x = AnyService.blast(base_opts: base_opts, log: log)
+AnyService.blast(base_opts: base_opts, log: log)
 
